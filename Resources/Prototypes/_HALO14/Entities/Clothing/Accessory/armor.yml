@@ -1,0 +1,44 @@
+- type: entity
+  parent: RMCPVEArmorPadsBase
+  id: HALOArmorPadsMarine
+  name: M52B Pauldrons
+  description: Attachable supplementary armor for the M52B armor system. Protects from glancing hits and covers the arm opening in the cuirass against shrapnel.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Accessory/UNSC/pads.rsi
+
+- type: entity
+  parent: RMCPVEArmorBracersBase
+  id: HALOArmorBracersMarine
+  name: M52B Vambraces
+  description: Attachable supplementary armor for the M52B armor system. A pair of composite ballistic vambraces to shield the forearms, with straps to ensure it doesn't ride up or down.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Accessory/UNSC/bracers.rsi
+
+- type: entity
+  parent: RMCPVEArmorNeckGuardBase
+  id: HALOArmorNeckGuardMarine
+  name: M52B Gorget
+  description: Attachable supplementary armor for the M52B armor system. A simple polymer ballistic plate to resist ricochets and shrapnel.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Accessory/UNSC/neckguard.rsi
+
+- type: entity
+  parent: RMCPVEArmorGroinPlateBase
+  id: HALOArmorGroinPlateMarine
+  name: M52B Lap Panel
+  description: Attachable supplementary armor for the M52B armor system. Shear thickening liquid armor piece covering the abdomen and groin, with an additional ruggedized boron carbide. Clasps to the inside of the M52B cuirass.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Accessory/UNSC/groinplate.rsi
+
+- type: entity
+  parent: RMCPVEArmorShinGuardBase
+  id: HALOArmorShinGuardMarine
+  name: M52B Greaves
+  description: Attachable supplementary armor for the M52B armor system. Lightweight polymer clamshell-style plates enclose the lower legs to provide shrapnel and pistol protection.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Accessory/UNSC/shinguards.rsi

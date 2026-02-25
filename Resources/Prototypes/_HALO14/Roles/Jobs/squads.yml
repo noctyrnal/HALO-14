@@ -5,6 +5,10 @@
   components:
   - type: SquadTeam
     color: "#6CAD58"
+    blacklistedSquadArmor:
+    - Helmet
+    - Armor
+    - Gloves
     radio: MarineLancer
     accessLevels:
     - CMAccessAlpha

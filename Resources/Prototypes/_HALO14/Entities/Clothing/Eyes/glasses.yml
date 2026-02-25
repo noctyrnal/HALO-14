@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: HALOGlassesBase
+  abstract: true
+  components:
+  - type: Item
+    storedRotation: 0
+  - type: Clothing
+    slots:
+    - EYES
+    - MASK
+
+- type: entity
+  parent: HALOGlassesBase
+  id: HALOGlassesMarine
+  name: UNSC shooting shades
+  description: A pair of standard-issue shades. Some models come with an in-built HUD system, this one evidently does not.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Eyes/UNSC/marine.rsi
+  - type: Clothing
+    sprite: _HALO14/Objects/Clothing/Eyes/UNSC/marine.rsi

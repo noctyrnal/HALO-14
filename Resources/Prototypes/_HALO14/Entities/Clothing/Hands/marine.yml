@@ -1,0 +1,5 @@
+- type: entity
+  parent: CMHandsBlackMarine
+  id: HALOHandsBlackMarine
+  name: UNSC combat gloves
+  description: Standard issue UNSC marine corps tactical gloves.

@@ -1,0 +1,46 @@
+- type: entity
+  parent: RMCBaseArmorNoAccessory
+  id: HALOBaseArmor
+  abstract: true
+  components:
+  - type: Clothing
+    equipDelay: 2
+    unequipDelay: 2
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: RMCNameItemOnVend
+    item: Armor
+  - type: CMHardArmor
+  - type: RMCBulkyArmor
+  - type: RMCMagneticArmor
+  - type: Appearance
+  - type: NoHandsInteractionBlocked
+  - type: WebbingClothing
+    whitelist:
+      tags:
+      - ArmorWebbing
+  - type: Tag
+    tags:
+    - RMCPVEArmor
+
+- type: entity
+  parent: [HALOBaseArmor, RMCBaseUniformAccessoryItemArmorPVE]
+  id: HALOArmorMarine
+  name: M52B body armor
+  description: Standard-issue to the UNSC Marine Corps, the M52B armor entered service by 2531 for use in the Human Covenant war, coming with improved protection against plasma-based projectiles compared to older models.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/OuterClothing/UNSC/marine_armor.rsi
+  - type: CMArmor
+    melee: 20
+    bullet: 20
+    bio: 20
+    explosionArmor: 20
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false

@@ -1,0 +1,11 @@
+# Black Boots
+- type: entity
+  parent: CMBootsBlack
+  id: HALOBootsBlack
+  name: UNSC combat boots
+  description: A pair of standard issue black United Nations Space Command Marine Corps combat boots.
+
+- type: entity
+  parent: [RMCItemSlotM5Bayonet, HALOBootsBlack]
+  id: HALOBootsBlackFilled
+  suffix: Filled

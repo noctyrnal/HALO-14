@@ -4,14 +4,14 @@
   name: UNSC uniform
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
+    sprite: _HALO14/Objects/Clothing/Uniforms/UNSC/marine_standard/classic-desert-jungle.rsi
   - type: Appearance
   - type: ItemCamouflage
     camouflageVariations:
-      Jungle: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
-      Desert: _RMC14/Objects/Clothing/Uniforms/Marine/standard/desert.rsi
-      Snow: _RMC14/Objects/Clothing/Uniforms/Marine/standard/snow.rsi
-      Classic: _RMC14/Objects/Clothing/Uniforms/Marine/standard/classic.rsi
-      Urban: _RMC14/Objects/Clothing/Uniforms/Marine/standard/urban.rsi
+      Jungle: _HALO14/Objects/Clothing/Uniforms/UNSC/marine_standard/classic-desert-jungle.rsi
+      Desert: _HALO14/Objects/Clothing/Uniforms/UNSC/marine_standard/classic-desert-jungle.rsi
+      Snow: _HALO14/Objects/Clothing/Uniforms/UNSC/marine_standard/snow-urban.rsi
+      Classic: _HALO14/Objects/Clothing/Uniforms/UNSC/marine_standard/classic-desert-jungle.rsi
+      Urban: _HALO14/Objects/Clothing/Uniforms/UNSC/marine_standard/snow-urban.rsi
   - type: UniformAccessoryHolder
-    startingAccessories: [ RMCPatchUNMC ]
+    startingAccessories: [ HALOPatchUNSC ]

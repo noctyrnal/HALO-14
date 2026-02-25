@@ -1,0 +1,10 @@
+- type: entity
+  parent: [RMCMarineHelmetBase, RMCFoldableHelmetBase]
+  id: HALOArmorHelmetMarine
+  name: CH252 helmet
+  description: Standard-issue helmet to the UNSC Marine Corps. Various attachment points on the helmet allow for various equipment to be fitted to the helmet.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Clothing/Head/UNSC/marine_helmet.rsi
+  - type: Clothing
+    sprite: _HALO14/Objects/Clothing/Head/UNSC/marine_helmet.rsi

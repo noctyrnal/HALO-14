@@ -1,0 +1,13 @@
+- type: entity
+  parent: RMCPatchBase
+  id: HALOPatchUNSC
+  name: UNSC Marine Corps patch # TODO: Sprites
+  description: A fire-resistant shoulder patch, worn by the men and women of the UNSC Marine Corps.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/unmc_patch.rsi
+    state: icon
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/unmc_patch.rsi
+      state: patch

@@ -5,7 +5,7 @@
   description: cm-job-description-rifleman
   playTimeTracker: HALOJobPVERifleman
   startingGear: HALOGearPVERifleman
-  dummyStartingGear: CMGearRiflemanEquipped
+  dummyStartingGear: HALOGearPVERiflemanEquipped
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
@@ -46,6 +46,18 @@
   id: HALOGearPVERifleman
   equipment:
     id: HALODogtagPVERifleman
+
+- type: startingGear
+  id: HALOGearPVERiflemanEquipped
+  equipment:
+    jumpsuit: HALOJumpsuitMarine
+    shoes: HALOBootsBlackFilled
+    head: HALOArmorHelmetMarine
+    outerClothing: HALOArmorMarine
+    gloves: HALOHandsBlackMarine
+    id: HALODogtagPVERifleman
+    ears: HALOHeadsetLancer
+    eyes: HALOGlassesMarine
 
 - type: entity
   parent: CMSpawnPointJobBase
