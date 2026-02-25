@@ -1,0 +1,112 @@
+# General
+
+- type: rank
+  id: HALORankCovenantDeacon
+  name: Deacon
+  prefix: Deacon
+  paygrade: COV-DCN
+
+- type: rank
+  id: HALORankCovenantMinor
+  name: Minor
+  prefix: Minor
+  paygrade: COV-1
+
+- type: rank
+  id: HALORankCovenantMajor
+  name: Major
+  prefix: Major
+  paygrade: COV-2
+
+- type: rank
+  id: HALORankCovenantUltra
+  name: Ultra
+  prefix: Ultra
+  paygrade: COV-3
+
+# Unggoy
+
+- type: rank
+  id: HALORankCovenantHeavy
+  name: Heavy
+  prefix: Heavy
+  paygrade: COV-2E
+
+# Kig-Yar
+
+- type: rank
+  id: HALORankCovenantChampion
+  name: Champion
+  prefix: Champion
+  paygrade: COV-3E
+
+- type: rank
+  id: HALORankCovenantShipmistress
+  name: Shipmistress
+  prefix: Shipmistress
+  paygrade: COV-4
+
+# Sangheili
+
+- type: rank
+  id: HALORankCovenantSangheiliMinor
+  name: Minor
+  prefix: Minor
+  paygrade: COV-S1
+
+- type: rank
+  id: HALORankCovenantSangheiliMajor
+  name: Major
+  prefix: Major
+  paygrade: COV-S2
+
+- type: rank
+  id: HALORankCovenantSangheiliUltra
+  name: Ultra
+  prefix: Ultra
+  paygrade: COV-S3
+
+- type: rank
+  id: HALORankCovenantSangheiliZealot
+  name: Zealot
+  prefix: Zealot
+  paygrade: COV-ZEAL
+
+# High Command
+
+- type: rank
+  id: HALORankCovenantSangheiliCommander
+  name: Commander
+  prefix: Commander
+  paygrade: COV-O1
+
+- type: rank
+  id: HALORankCovenantSangheiliFieldmaster
+  name: Fieldmaster
+  prefix: Fieldmaster
+  paygrade: COV-O2E
+
+- type: rank
+  id: HALORankCovenantSangheiliShipmaster
+  name: Shipmaster
+  prefix: Shipmaster
+  paygrade: COV-O2
+
+- type: rank
+  id: HALORankCovenantSangheiliFleetmaster
+  name: Fleetmaster
+  prefix: Fleetmaster
+  paygrade: COV-O3
+
+- type: rank
+  id: HALORankCovenantSangheiliLandmaster
+  name: Landmaster
+  prefix: Landmaster
+  paygrade: COV-O3E
+
+- type: rank
+  id: HALORankCovenantSangheiliSupremeCommander
+  name: Supreme Commander
+  prefix: Supreme Commander
+  paygrade: COV-O4
+

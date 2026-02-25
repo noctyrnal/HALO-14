@@ -1,0 +1,9 @@
+﻿- type: npcFaction
+  id: UNSC
+  hostile:
+  - Covenant
+
+- type: npcFaction
+  id: Covenant
+  hostile:
+  - UNSC

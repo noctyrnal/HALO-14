@@ -1,0 +1,58 @@
+- type: job
+  parent: CMJobSquadBase
+  id: HALOPVERifleman
+  name: cm-job-name-rifleman
+  description: cm-job-description-rifleman
+  playTimeTracker: HALOJobPVERifleman
+  startingGear: HALOGearPVERifleman
+  dummyStartingGear: CMGearRiflemanEquipped
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  marineAuthorityLevel: 1
+  supervisors: cm-job-supervisors-sl
+  ranks:
+    RMCRankPrivateFirstClass: []
+  spawnMenuRoleName: UNSC Rifleman (HALO, PVE)
+  accessGroups:
+  - Rifleman
+  hasIcon: false
+  roleWeight: 1
+  displayWeight: 0
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetPVERifleman
+    - type: DemoSpecWhitelist
+    - type: GrenadeSpecWhitelist
+    - type: ScoutWhitelist
+    - type: SniperWhitelist
+    - type: PyroWhitelist
+    - type: SquadArmorWearer
+    - type: JobPrefix
+      prefix: cm-job-prefix-rifleman
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: private
+    - type: MutinyEligible
+  hidden: true
+
+- type: playTimeTracker
+  id: HALOJobPVERifleman
+  isHumanoid: true
+
+- type: startingGear
+  id: HALOGearPVERifleman
+  equipment:
+    id: HALODogtagPVERifleman
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: HALOSpawnPointPVERifleman
+  name: PVE rifleman spawn point
+  components:
+  - type: SpawnPoint
+    job_id: HALOPVERifleman
+  - type: Sprite
+    state: marine_spawn

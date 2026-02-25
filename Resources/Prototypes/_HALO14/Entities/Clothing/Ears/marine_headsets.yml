@@ -1,0 +1,22 @@
+- type: entity
+  parent: RMCHeadsetShip
+  id: HALOHeadsetLancer
+  name: lancer platoon radio headset
+  description: This is used by the UNSC Lancer Platoon.
+  components:
+  - type: Sprite
+    state: delta_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - HALOEncryptionKeyLancer
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Ears/headset_onmob.rsi
+  - type: GrantSquadLeaderTracker
+    defaultMode: SectionSergeant
+    trackerModes:
+    - SectionSergeant
+    - PVESquadLeader
+    - PrimaryLandingZone
+  - type: GrantTacMapAlert
+  - type: HeadsetAutoSquad

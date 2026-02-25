@@ -86,7 +86,7 @@
 - type: radioChannel
   id: MarineAlpha
   name: chat-radio-marine-alpha
-  keycode: "a" #a in cm13
+  keycode: "л" #a in cm13
   frequency: 1491
   color: "#dc0a0a"
   longRange: true
@@ -104,7 +104,7 @@
 - type: radioChannel
   id: MarineCharlie
   name: chat-radio-marine-charlie
-  keycode: "c" #c in cm13
+  keycode: "ю" #c in cm13
   frequency: 1493
   color: "#a94ac2"
   longRange: true

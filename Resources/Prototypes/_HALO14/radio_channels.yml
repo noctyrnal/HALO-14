@@ -1,0 +1,17 @@
+- type: radioChannel
+  id: MarineLancer
+  name: chat-radio-marine-lancer
+  keycode: "a"
+  frequency: 1501
+  color: "#476d3b"
+  longRange: true
+  tower: true
+
+- type: radioChannel
+  id: Covenant
+  name: chat-radio-covenant
+  keycode: "c"
+  frequency: 1502
+  color: "#9744c7"
+  longRange: true
+  tower: true

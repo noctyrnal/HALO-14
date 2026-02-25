@@ -1,0 +1,12 @@
+﻿- type: entity
+  parent: CMIDCardStandardDogtag
+  id: HALODogtagPVERifleman
+  name: Rifleman's dogtags
+  components:
+  - type: PresetIdCard
+    job: HALOPVERifleman
+
+- type: entity
+  parent: [ RMCIDCardStandardDogtagHidden, HALODogtagPVERifleman ]
+  id: HALODogtagPVERiflemanHidden
+  categories: [ HideSpawnMenu ]

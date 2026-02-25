@@ -1,0 +1,13 @@
+﻿- type: entity
+  parent: SquadBase
+  id: SquadLancer
+  name: Lancer Platoon
+  components:
+  - type: SquadTeam
+    color: "#6CAD58"
+    radio: MarineLancer
+    accessLevels:
+    - CMAccessAlpha
+    minimapBackground:
+     sprite: /Textures/_HALO13/Interface/map_blips.rsi
+     state: background_lancer

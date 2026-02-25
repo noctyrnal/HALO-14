@@ -1,0 +1,11 @@
+- type: entity
+  parent: CMEncryptionKey
+  id: HALOEncryptionKeyLancer
+  name: lancer platoon encryption key
+  components:
+  - type: EncryptionKey
+    channels:
+    - MarineLancer
+    defaultChannel: MarineLancer
+  - type: Sprite
+    state: delta_key
