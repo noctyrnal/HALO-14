@@ -1,0 +1,17 @@
+- type: entity
+  parent: JumpsuitMarine
+  id: HALOJumpsuitMarine
+  name: UNSC uniform
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
+  - type: Appearance
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Uniforms/Marine/standard/desert.rsi
+      Snow: _RMC14/Objects/Clothing/Uniforms/Marine/standard/snow.rsi
+      Classic: _RMC14/Objects/Clothing/Uniforms/Marine/standard/classic.rsi
+      Urban: _RMC14/Objects/Clothing/Uniforms/Marine/standard/urban.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories: [ RMCPatchUNMC ]

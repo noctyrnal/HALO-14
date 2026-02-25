@@ -1,0 +1,16 @@
+﻿[adminlogs]
+server_name = "halo"
+
+[game]
+desc = "-"
+hostname = "[EN][HRP] HALO-14 [-]"
+
+[hub]
+tags = "lang:en,region:am_n_e,rp:high"
+
+[loki]
+name = "halo"
+
+[rmc]
+planet_map_vote = false
+lobby_start_paused = true
