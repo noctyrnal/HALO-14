@@ -1,0 +1,84 @@
+- type: entity
+  parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
+  id: HALOAttachmentMA5Flashlight
+  name: MA5 integrated flashlight
+  description: The MA5 integrated flashlight, standard-issue to any MA5-model assault rifle and essential to handling it.
+  components:
+  - type: ItemTogglePointLight
+  - type: ToggleableVisuals
+    spriteLayer: light
+  - type: PointLight
+    enabled: false
+    radius: 5
+    softness: 5
+    autoRot: true
+    netsync: false
+  - type: HandheldLight
+    addPrefix: false
+    blinkingBehaviourId: blinking
+    radiatingBehaviourId: radiating
+  - type: NoHandsInteractionBlocked
+  - type: LightBehaviour
+    behaviours:
+    - !type:FadeBehaviour
+      id: radiating
+      interpolate: Linear
+      maxDuration: 2.0
+      startValue: 3.0
+      endValue: 2.0
+      isLooped: true
+      property: Radius
+      enabled: false
+      reverseWhenFinished: true
+    - !type:PulseBehaviour
+      id: blinking
+      interpolate: Nearest
+      maxDuration: 1.0
+      minValue: 0.1
+      maxValue: 2.0
+      isLooped: true
+      property: Radius
+      enabled: false
+  - type: Battery
+    maxCharge: 10
+    startingCharge: 10
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 3
+  - type: Sprite
+    sprite: _HALO14/Objects/Weapons/Guns/Attachments/UNSC/under.rsi
+    layers:
+    - state: ma5c_flashlight
+    - state: ma5c_flashlight-on
+      visible: false
+      map: [ "light" ]
+  - type: Item
+    sprite: _HALO14/Objects/Weapons/Guns/Attachments/UNSC/under.rsi
+    state: ma5c_flashlight
+  - type: Appearance
+  - type: AttachableToggleable
+    attachedOnly: true
+    useDelay: 1.0
+    icon:
+      sprite: _HALO14/Objects/Weapons/Guns/Attachments/UNSC/under.rsi
+      state: ma5c_flashlight
+    iconActive:
+      sprite: _HALO14/Objects/Weapons/Guns/Attachments/UNSC/under.rsi
+      state: ma5c_flashlight-on
+    actionName: Activate MA5 Flashlight
+    actionDesc: Can be toggled on and off. A useful light source for dark encounters.
+  - type: AttachableVisuals
+    showActive: true
+    suffix: ""
+  - type: AttachableToggleableSimpleActivate
+  - type: Tag
+    tags:
+    - HALOAttachmentUnder
+    - HALOAttachmentMA5Flashlight
+    - Flashlight
+
+- type: Tag
+  id: HALOAttachmentUnder
+
+- type: Tag
+  id: HALOAttachmentMA5Flashlight

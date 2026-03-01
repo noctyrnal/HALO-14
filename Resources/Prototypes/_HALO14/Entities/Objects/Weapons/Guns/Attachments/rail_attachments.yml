@@ -1,0 +1,21 @@
+- type: entity
+  parent: RMCRailAttachmentBase
+  id: HALOAttachmentMA5CShroud
+  name: MA5C shroud
+  description: This isn't supposed to be separated from the gun, how'd this happen?
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Weapons/Guns/Attachments/UNSC/rail.rsi
+    state: ma5c_shroud
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - HALOAttachmentRail
+    - HALOAttachmentMA5CShroud
+
+- type: Tag
+  id: HALOAttachmentRail
+
+- type: Tag
+  id: HALOAttachmentMA5CShroud

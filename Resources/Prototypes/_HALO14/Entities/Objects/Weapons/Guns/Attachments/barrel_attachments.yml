@@ -1,0 +1,21 @@
+- type: entity
+  parent: RMCBarrelAttachmentBase
+  id: HALOAttachmentMA5CBarrel
+  name: MA5C barrel
+  description: The barrel to an MA5C ICWS assault rifle. Better not leave without it.
+  components:
+  - type: Sprite
+    sprite: _HALO14/Objects/Weapons/Guns/Attachments/UNSC/barrel.rsi
+    state: ma5c_barrel
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - HALOAttachmentBarrel
+    - HALOAttachmentMA5CBarrel
+
+- type: Tag
+  id: HALOAttachmentBarrel
+
+- type: Tag
+  id: HALOAttachmentMA5CBarrel

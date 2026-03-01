@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13-pve-halo at https://github.com/cmss13-devs/cmss13-pve-halo/blob/6da8751432581aac105a4c58c1a9d8109d2a5d95/icons/halo/obj/items/weapons/guns_by_faction/unsc/unsc_attachments.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ma5c_shroud"
+    }
+  ]
+}

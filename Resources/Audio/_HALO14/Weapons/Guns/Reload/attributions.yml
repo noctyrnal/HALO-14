@@ -1,0 +1,9 @@
+- files: ["gun_ma5c_unload.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from cmss13-pve-halo"
+  source: "https://github.com/cmss13-devs/cmss13-pve-halo/blob/6da8751432581aac105a4c58c1a9d8109d2a5d95/sound/weapons/halo/gun_ma5c_unload.ogg"
+
+- files: ["gun_ma5c_reload.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from cmss13-pve-halo"
+  source: "https://github.com/cmss13-devs/cmss13-pve-halo/blob/6da8751432581aac105a4c58c1a9d8109d2a5d95/sound/weapons/halo/gun_ma5c_reload.ogg"

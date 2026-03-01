@@ -1,0 +1,6 @@
+﻿- type: soundCollection
+  id: HALOMA5CShoot
+  files:
+  - /Audio/_HALO14/Weapons/Guns/Gunshots/gun_ma5c_1.ogg
+  - /Audio/_HALO14/Weapons/Guns/Gunshots/gun_ma5c_2.ogg
+  - /Audio/_HALO14/Weapons/Guns/Gunshots/gun_ma5c_3.ogg
